@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
 import { useI18n } from '@/context/I18nContext';
-import { BarChart3, Calendar, Plus, Ticket, User, QrCode } from 'lucide-react-native';
+import { ChartBar as BarChart3, Calendar, Plus, Ticket, User, QrCode } from 'lucide-react-native';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { useRef, useEffect } from 'react';
 import Animated, { 

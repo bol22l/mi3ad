@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useAuth } from '@/context/AuthContext';
 import { useTheme } from '@/context/ThemeContext';
 import { router } from 'expo-router';
-import { BarChart3, Calendar, Users, DollarSign, TrendingUp, Plus, Eye, Ticket, Clock } from 'lucide-react-native';
+import { ChartBar as BarChart3, Calendar, Users, DollarSign, TrendingUp, Plus, Eye, Ticket, Clock } from 'lucide-react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useSharedValue, useAnimatedScrollHandler, runOnJS } from 'react-native-reanimated';
 import Animated from 'react-native-reanimated';
