@@ -4,7 +4,7 @@ import { router } from 'expo-router';
 import { useAuth } from '@/context/AuthContext';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Building2, User, ArrowRight, CheckCircle } from 'lucide-react-native';
+import { Building2, User, ArrowRight, CircleCheck as CheckCircle } from 'lucide-react-native';
 
 export default function UserTypeSelection() {
   const { switchUserType } = useAuth();
