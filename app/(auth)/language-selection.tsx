@@ -10,7 +10,7 @@ export default function LanguageSelection() {
 
   const selectLanguage = async (language: string) => {
     await changeLanguage(language);
-    router.replace('/(auth)/login');
+    router.replace('/(auth)/user-type-selection');
   };
 
   const supportedLanguages = getSupportedLanguages();
@@ -33,16 +33,16 @@ export default function LanguageSelection() {
           <View style={styles.titleContainer}>
             <Text style={styles.title}>اختر اللغة / Choose Language</Text>
             <Text style={styles.subtitle}>
-              اجتماعاتك ومناسباتك في مكان واحد
+              منصة شاملة لإدارة وحضور الفعاليات في ليبيا
             </Text>
             <Text style={styles.subtitle}>
-              Your events and occasions in one place
+              Comprehensive platform for managing and attending events in Libya
             </Text>
             <Text style={styles.subtitle}>
-              Vos événements et occasions en un seul endroit
+              Plateforme complète pour gérer et assister aux événements en Libye
             </Text>
             <Text style={styles.subtitle}>
-              Ваши события и мероприятия в одном месте
+              Комплексная платформа для управления и посещения мероприятий в Ливии
             </Text>
           </View>
 
